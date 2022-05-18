@@ -139,7 +139,7 @@ body {
 }
 
 .boton:hover {
-    font-size: 1.4em;
+    font-size: 1.27em;
 }
 
 
@@ -153,4 +153,93 @@ body {
     font-size: 1em;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+    .container {
+        width: 315px;
+        height: 491px;
+    }
+
+    .container h2 {
+        font-size: .8em;
+        width: 190px;
+        margin: 50px 0 0 30px;
+        line-height: 5mm;
+    }
+    
+    .container a {
+        left: 260px;
+        top: 18px;
+    }
+    
+    .container a span {
+        font-size: 1.2em;
+    }
+    
+    .container a span:hover {
+        font-size: 1.6em;
+    }
+
+    .cuadrado {
+        margin: 25px 25px 0 25px;
+    }
+    
+    .cuadrados {
+        padding: 10px 18px;
+    }
+    
+    .cuadrados:hover {
+        padding: 11px 19px;
+    }
+    
+    .cuadrados span {
+        font-size: .9em;
+    }
+    
+    .color {
+        box-shadow: 0px 10px 15px -9px #535355;
+    }
+
+    .texto {
+        margin: 15px 30px 60px 30px;
+    }
+    
+    .texto p {
+        font-size: .7em;
+        line-height: 1.1;
+        width: 84px;
+    }
+    
+    .terminos {
+        margin-left: 30px;
+        margin-bottom: 70px;
+        width: 260px;
+        padding-bottom: 35px;
+    }
+    
+    .check {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .terminos span {
+        margin-left: 10px;
+        font-size: .8em;
+    }
+    
+    .boton {
+        width: 260px;
+        height: 40px;
+        margin-left: 30px;
+    }
+    
+    .boton:hover {
+        font-size: 1.1em;
+    }
+    
+    
+    .boton button {
+        font-size: .9em;
+    }
 }
