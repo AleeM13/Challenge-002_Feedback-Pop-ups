@@ -59,6 +59,7 @@ body {
     border: 1px solid #E4E6F6;
     padding: 15px 28px;
     border-radius: 5px;
+    cursor: pointer;
     transition: all .2s; 
 }
 
@@ -112,6 +113,12 @@ body {
     height: 28px;
     border: 1px solid #989ECE;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.check:hover {
+    background-color: #5DABFF;
 }
 
 .terminos span {
@@ -127,9 +134,17 @@ body {
     margin-left: 45px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+    transition: all .2s;
 }
 
+.boton:hover {
+    font-size: 1.4em;
+}
+
+
 .boton button {
+    cursor: pointer;
     background: #fff;
     border: none;
     display: flex;
